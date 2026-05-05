@@ -9,7 +9,7 @@ st.set_page_config(page_title="India Property Analytics", layout="wide", page_ic
 # 2. Optimized Data Loading & Analytics Logic
 @st.cache_data
 def load_and_analyze():
-    path = r"C:\Users\Vikas\Desktop\Real Estate Investment Advisor Predicting Property Profitability & Future Value\india_housing_prices .csv"
+    path = "india_housing_prices_sample.csv"
     
     try:
         # Optimization: Only load necessary columns to save RAM and time
